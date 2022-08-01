@@ -18,12 +18,9 @@ function clickDefine (object) {
     pictures[pictIndex].className='slider__item slider__item_active' 
 }
 
-function callback(item) {
-    if (item.className == 'slider__item slider__item_active') {
-        return true
-    }
-
+function callback(item) {  
+        return item.className == 'slider__item slider__item_active'  
 }
 
-//.includes
+
 clickFound()
